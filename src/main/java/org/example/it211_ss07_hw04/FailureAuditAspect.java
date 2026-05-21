@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 public class FailureAuditAspect {
 
     @AfterThrowing(
-            pointcut = "execution(* com.example.elearning.service..*(..))",
+            pointcut = "execution(* org.example.it211_ss07_hw04..*(..))",
             throwing = "ex"
     )
     public void logServiceFailure(
